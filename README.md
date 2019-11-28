@@ -21,14 +21,12 @@ Set up project locally
 Set up through docker
 --------
 1. `docker build -t NAME .`: build image
-2. `docker run -d -t -p 5999:5999 NAME`: run image
+2. `docker run -d -t -p 80:80 NAME`: run image
 
 Packages
 --------
 1. NodeJs
 2. Typescript
-3. Dialogflow
-4. MongoDB(?)
-5. Docker
-6. K8s
-7. AWS
+3. MongoDB
+4. Docker
+

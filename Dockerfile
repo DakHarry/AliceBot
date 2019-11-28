@@ -24,6 +24,6 @@ RUN npm install --production
 
 COPY --from=build /usr/src/app/dist .
 
-EXPOSE 5999
+EXPOSE 80
 
 ENTRYPOINT ["node", "index.js"]
